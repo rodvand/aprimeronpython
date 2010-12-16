@@ -3,7 +3,7 @@ by the book "A Primer on Scientific Programming with Python" by Hans Petter
 Langtangen.
 
 You will find a TODO file in each of the chapter folders. This file will
-include the exercises and, if an exercise is finished, a label.
+include the exercises and, if an exercise is finished, a label signalling so.
 
 If you disagree with the solution or have ideas for alternate solutions, 
 please get in touch on martin@rodvand.net
