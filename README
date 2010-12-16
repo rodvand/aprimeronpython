@@ -3,7 +3,17 @@ by the book "A Primer on Scientific Programming with Python" by Hans Petter
 Langtangen.
 
 You will find a TODO file in each of the chapter folders. This file will
-include the exercises and, if an exercise is finished, a label signalling so.
+include the exercises and a OK label if the solution is included.
 
 If you disagree with the solution or have ideas for alternate solutions, 
-please get in touch on martin@rodvand.net
+please get in touch on martin@rodvand.net.
+
+Why do this?
+As a part of my University degree I took the course INF1100 at the University
+of Oslo. At that course we used this book and we had weekly assignments from
+said book. The assignments did not include all the exercises, and I wanted to
+work my way through the book and ALL of its exercises. Why not share it with
+the rest of the world? Still, if you do use this book for your course - do the
+exercises yourself, and if in trouble have a peak at my solution.
+
+And, Python is AWESOME!
