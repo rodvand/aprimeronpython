@@ -1,3 +1,6 @@
+# Exercise 8.2
+# Probability of getting a number (0.5, 0.6)
+
 from random import random
 
 def prob(start, stop, N):
@@ -5,7 +8,7 @@ def prob(start, stop, N):
     match = 0
     while i <= N:
         ran = random()
-        if ran > start and ran < stop: 
+        if ran > start and ran < stop: # Not including the start and stop point
             match += 1
         i += 1
     print "Probability that the values lies between %g and %g is %g percent." % (start, stop, float(match)/N*100)
