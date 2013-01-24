@@ -2,17 +2,26 @@
 Program to generate the running example at
 the end of the script file.
 
+Usage: python generate.py <file>
+
 Example:
 Running program
 Unix>name of program
 Output of the program
 """
 
+def usage():
+    import sys
+    print "Usage: python "+sys.argv[0]+" <file>"
+    exit(1);
+
 import sys
 import subprocess
 
-filename = sys.argv[1]
-print filename
+try:
+    filename = sys.argv[1]
+except IndexError:
+    usage()
 
 startline = "\"\"\"\nRunning program\nUnix>python "+filename+"\n"
 output = subprocess.check_output("python "+filename, shell=True)
