@@ -28,7 +28,6 @@ output = subprocess.check_output("python "+filename, shell=True)
 endline = "\"\"\""
 
 arg = startline+output+endline
-print arg
 
 f = open(filename, 'a')
 f.write("\n")
