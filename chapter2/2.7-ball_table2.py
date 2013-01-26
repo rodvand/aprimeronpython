@@ -20,9 +20,9 @@ while i < len(y):
     i = i+1
 print '---------------------'
 
-
-'''
-martirod@lazarus ~/privat $ python ball_table2.py 
+"""
+Running program
+Unix>python 2.7-ball_table2.py
 ---------------------
 |__t______|y(t)_____|
 |  0.1   |0.4509    |
@@ -32,4 +32,4 @@ martirod@lazarus ~/privat $ python ball_table2.py
 |  0.5   |1.2737    |
 |  0.6   |1.2342    |
 ---------------------
-'''
+"""

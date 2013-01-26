@@ -34,9 +34,9 @@ for T2 in t2:
     print '|  %g   |%4.4f    |' % (T2[0], T2[1])
 print '---------------------'
 
-
-'''
-Unix> python ball_table3.py 
+"""
+Running program
+Unix>python 2.11-ball_table3.py
 ---------------------
 |__t______|y(t)_____|
 |  0.1   |0.4509    |
@@ -54,4 +54,4 @@ Unix> python ball_table3.py
 |  0.5   |1.2737    |
 |  0.6   |1.2342    |
 ---------------------
-'''
+"""
