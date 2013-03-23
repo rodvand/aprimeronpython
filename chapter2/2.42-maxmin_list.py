@@ -3,11 +3,11 @@ Find the max/min elements in a list.
 """
 
 def max(a):
-    maximum = a[0]
+    max_elem = a[0]
     for element in a[1:]:
-        if element > maximum:
-            maximum = element
-    return maximum
+        if element > max_elem:
+            max_elem = element
+    return max_elem
 
 def min(a):
     minimum = a[0]
