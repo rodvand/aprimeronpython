@@ -1,4 +1,4 @@
-print "Hello, World!"
+print("Hello, World!")
 
 """
 Running the program

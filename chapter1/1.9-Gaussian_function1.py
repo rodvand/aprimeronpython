@@ -11,7 +11,7 @@ if s <= 0:
 
 f = (1./(sqrt(2 * pi) * s)) * exp(-0.5 * ((x -m)/float(s))**2)
 
-print f
+print(f)
 
 """
 Running the program

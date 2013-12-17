@@ -12,7 +12,7 @@ Output of the program
 
 def usage():
     import sys
-    print "Usage: python "+sys.argv[0]+" <file>"
+    print("Usage: python "+sys.argv[0]+" <file>")
     exit(1);
 
 import sys

@@ -6,7 +6,7 @@ years = 3   # Number of years to grow
 # To avoid integer division we convert p to float
 sum = A * (1 + (float(p)/100))**years
 
-print "After %g years with %g%% interest rate and an initial amount of %g we have %g." % (years, p, A, sum)
+print("After %g years with %g%% interest rate and an initial amount of %g we have %g." % (years, p, A, sum))
 
 """
 Unix>python interest_rate.py 

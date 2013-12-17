@@ -12,12 +12,12 @@ Fd = (0.5*Cd)*q*A*(V**2)    # drag force
 Fg = m*g                    # gravity force
 ratio = Fd/Fg               # drag force/gravity force
 
-print '''
+print('''
 Velocity: %g km/h
 Drag force: Fd = 1/2*Cd*q*AV^2 \tequals %.1f N
 Gravity force: Fg = m*g \tequals %g * %g = %.1f N
 Ratio drag force/gravity force: %.2f
-''' % (Vk, Fd, m, g, Fg, ratio)
+''' % (Vk, Fd, m, g, Fg, ratio))
 
 '''
 Unix>python kick.py 

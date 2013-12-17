@@ -11,14 +11,14 @@ platinum    = 21.4
 
 v = 1000 #  Liter in grams (volume)
 
-print """From %g liter the mass of 
+print("""From %g liter the mass of 
 iron        is %g grams
 air         is %g grams
 gasoline    is %g grams
 ice         is %g grams
 human body  is %g grams
 silver      is %g grams
-platinum    is %g""" % (v, v * iron, v * air, v * gasoline, v * ice, v * body, v* silver, v * platinum)
+platinum    is %g""" % (v, v * iron, v * air, v * gasoline, v * ice, v * body, v* silver, v * platinum))
 
 """
 Running program

@@ -10,8 +10,8 @@ eq2_sum = a2 - 2ab + b2 # Problem 2 and 5
 eq1_pow = (a + b)**2
 eq2_pow = (a - b)**2
 
-print 'First equation: %g = %g', % (eq1_sum, eq1_pow)   # Problem 3
-print 'Second equation: %g = %g', % (eq2_sum, eq2_pow)  # Problem 3
+print('First equation: %g = %g', % (eq1_sum, eq1_pow)   # Problem 3
+print('Second equation: %g = %g', % (eq2_sum, eq2_pow)  # Problem 3
 """
 """
 Modified code
@@ -26,8 +26,8 @@ eq2_sum = a2 - 2*a*b + b2
 eq1_pow = (a + b)**2
 eq2_pow = (a - b)**2
 
-print 'First equation: %g = %g' % (eq1_sum, eq1_pow)
-print 'Second equation: %g = %g' % (eq2_sum, eq2_pow)
+print('First equation: %g = %g' % (eq1_sum, eq1_pow))
+print('Second equation: %g = %g' % (eq2_sum, eq2_pow))
 
 """
 First task: run the program
@@ -44,9 +44,9 @@ multiplication statement.
 Solution: insert a * between 2 and ab. This will also have to be done
 for the line beneath.
 Problem 3:
-We get an invalid syntax error when trying to print the sums of the equations.
-The comma between the print string and the variables to be included in the 
-string is the culprit. Remove the variable and the print will work.
+We get an invalid syntax error when trying to print(the sums of the equations.
+The comma between the print(string and the variables to be included in the 
+string is the culprit. Remove the variable and the print(will work.
 Solution: Remove the comma between the string and the variables on the line of
 the print.
 Problem 4:

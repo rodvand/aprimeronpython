@@ -4,11 +4,11 @@ foot = 12 * inch
 yard = 3 * foot 
 mile = 1760 * yard
 
-print """%g meters is 
+print("""%g meters is 
 in inches: %g
 in feet: %g
 in yards: %g
-in miles: %g""" % (meters, meters / inch, meters / foot, meters / yard, meters / mile)
+in miles: %g""" % (meters, meters / inch, meters / foot, meters / yard, meters / mile))
 
 """
 Running the program
